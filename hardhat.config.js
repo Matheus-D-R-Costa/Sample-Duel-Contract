@@ -7,7 +7,8 @@ module.exports = {
     networks: {
         amoy: {
             url: "https://rpc-amoy.polygon.technology",
-            accounts: [process.env.PRIVATE_KEY]
+            accounts: [process.env.PRIVATE_KEY],
+            gas: 6000000
         }
     }
 };
